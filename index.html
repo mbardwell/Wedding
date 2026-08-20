@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ndaya &amp; Mike &mdash; Wedding Seating</title>
+<meta name="description" content="Find your seat for Ndaya & Mike's wedding reception." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <p class="eyebrow">Welcome to the Reception</p>
+  <h1 class="couple-names">Ndaya <span class="amp">&amp;</span> Mike</h1>
+  <p class="instruction">Please find your name below to discover your table.</p>
+  <div class="divider" aria-hidden="true"></div>
+</header>
+
+<main>
+  <div class="stats" id="stats"></div>
+
+  <div class="search-wrap">
+    <input
+      type="text"
+      id="search"
+      class="search-input"
+      placeholder="Search your name..."
+      autocomplete="off"
+      autocapitalize="words"
+      inputmode="search"
+      aria-label="Search your name"
+    />
+    <p id="search-result" class="search-result" aria-live="polite"></p>
+  </div>
+
+  <section id="tables" class="tables-grid"></section>
+
+  <p id="empty-state" class="empty-state" hidden>No guest matches that name. Please check with the couple.</p>
+</main>
+
+<footer class="site-footer">
+  <p>With love, Ndaya &amp; Mike</p>
+  <button id="show-qr" class="qr-toggle" type="button">Show QR code</button>
+</footer>
+
+<div id="qr-modal" class="qr-modal" hidden>
+  <div class="qr-card">
+    <button id="close-qr" class="qr-close" type="button" aria-label="Close">&times;</button>
+    <p class="qr-title">Scan to share this page</p>
+    <div id="qr-canvas" class="qr-canvas"></div>
+    <p id="qr-url" class="qr-url"></p>
+  </div>
+</div>
+
+<script src="vendor/qrcode.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
