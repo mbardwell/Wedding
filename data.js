@@ -11,16 +11,15 @@ const SEATING_DATA = [
   },
   {
     "table": "R1",
-    "total": 8,
+    "total": 7,
     "guests": [
       "David Bardwell",
       "Rachelle Bardwell",
-      "Cameron Bardwell",
-      "Kevin Ogren",
       "Janine Seale",
       "Fred Seale",
       "Malcolm Seale",
-      "Ronan Seale"
+      "Ronan Seale",
+      "Aidan Carroll"
     ],
     "note": "Groom's Family"
   },
@@ -55,9 +54,9 @@ const SEATING_DATA = [
     "table": "2",
     "total": 6,
     "guests": [
+      "Cameron Bardwell",
+      "Kevin Ogren",
       "Jacob Stanley",
-      "Jay Charland",
-      "Alexandria Pietrocarlo",
       "Sama Banaei",
       "Nick Moreno",
       "Isabela Moreno"
@@ -66,13 +65,14 @@ const SEATING_DATA = [
   },
   {
     "table": "3",
-    "total": 5,
+    "total": 6,
     "guests": [
       "Rumman Waqar",
       "Lotte Willemsz",
       "Nikola Viktorov",
       "Monika Viktorov",
-      "Aidan Carroll"
+      "Jay Charland",
+      "Alexandria Pietrocarlo"
     ],
     "note": ""
   },
@@ -174,8 +174,8 @@ const SEATING_DATA = [
       "Michelle Thiessen",
       "Derek",
       "Natalie Thiessen",
-      "Tara Dennis",
-      "Tara Dennis +1",
+      "Tara de Cristafano",
+      "Cheryl de Cristafano",
       "Natheara Mammu"
     ],
     "note": ""
@@ -200,7 +200,7 @@ const SEATING_DATA = [
       "Alan Su",
       "Scott Miller",
       "Samantha Bugodween",
-      "Kris Samantha",
+      "Kris Appalassami",
       "Tara Maasumi",
       "Meryem Tobi"
     ],
@@ -214,7 +214,7 @@ const SEATING_DATA = [
       "Lucie Kabena",
       "Marie Tshikena",
       "Christine Tshiowa",
-      "Bernadette Kamwanya"
+      "Dan Mbombo"
     ],
     "note": ""
   },
@@ -305,7 +305,7 @@ const SEATING_DATA = [
       "Guylaine Illunga",
       "Nono Bukasa",
       "Odette Bukasa",
-      "Jean-marie Sanduku"
+      "Bhabo Bukasa"
     ],
     "note": ""
   },
@@ -316,9 +316,9 @@ const SEATING_DATA = [
       "Christian Kasanda",
       "Deborah Bakembo",
       "Isabelle Sanduku",
-      "Deborah Sanduku",
-      "David Sanduku",
-      "Jojo Sanduku"
+      "Jojo Sanduku",
+      "Jean-Marie Sanduku",
+      "Viviane Susa"
     ],
     "note": ""
   },
@@ -350,14 +350,13 @@ const SEATING_DATA = [
   },
   {
     "table": "25",
-    "total": 6,
+    "total": 5,
     "guests": [
       "Mireille Simo",
       "Arlette Eden",
       "Verlaine Mpassi",
       "Marie Edme",
-      "Isemide Cadet",
-      "Dan Mbombo"
+      "Isemide Cadet"
     ],
     "note": ""
   }
